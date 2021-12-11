@@ -28,7 +28,9 @@ object basics {
     // input
     val name = readLine()
     printf("Hello, %s\n", name)
+    println(s"Hello $name!")
     val n = readLine().toInt
     println(n + 100)
+    // readInt readDouble readFloat readShort can also be used
 
 }
